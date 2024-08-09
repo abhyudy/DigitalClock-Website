@@ -1,0 +1,27 @@
+/* General body styles */
+body {
+    background-color: #212121; /* Dark background for the body */
+    color: #fff; /* White text color */
+    margin: 0; /* Remove default margins */
+    font-family: Arial, sans-serif; /* Set a clean font */
+}
+
+/* Center container styles */
+.banner {
+    display: flex; /* Use flexbox for centering */
+    height: 100vh; /* Full viewport height */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+
+/* Clock styling */
+#clock {
+    font-size: 4em; /* Larger font size for the clock */
+    color: #fff; /* White text color */
+    background-color: #ff5722; /* Bright orange background */
+    padding: 20px 40px; /* Adjust padding for better appearance */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    text-align: center; /* Center text within the clock */
+}
